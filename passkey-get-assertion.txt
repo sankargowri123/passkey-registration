@@ -1,0 +1,40 @@
+GET https://login-uat.pvcombank.com.vn/mga/sps/apiauthsvc/policy/pvconnect_passkey_authenticate?username=0345383667
+
+{
+    "mechanism": "urn:ibm:security:authentication:asf:mechanism:fido2",
+    "stateId": "PR7VjM7uBLiXC4n826Wp28w3huMfTgDdrFCLLEY35ppHgBcy5O2YZQIWPAOXuFhb7cuijQUlz4KJTvc3wLXsihRwXfAEwiTCtNunFAOfca8rFAFziQwlbHoGdfTLRJTT",
+    "location": "/mga/sps/apiauthsvc/policy/pvconnect_passkey_authenticate?StateId=PR7VjM7uBLiXC4n826Wp28w3huMfTgDdrFCLLEY35ppHgBcy5O2YZQIWPAOXuFhb7cuijQUlz4KJTvc3wLXsihRwXfAEwiTCtNunFAOfca8rFAFziQwlbHoGdfTLRJTT",
+    "rpId": "login-uat.pvcombank.com.vn",
+    "timeout": 60000000,
+    "challenge": "bAEJohF3eHCOPgDJN_so9ekhs_k3yWkHPuB8xVI-PCw",
+    "allowCredentials": [
+        {
+            "transports": [
+                "hybrid",
+                "internal"
+            ],
+            "id": "HlP9wnG4Ka6BZ1oqy3mY3w",
+            "type": "public-key"
+        },
+        {
+            "id": "IKNJ7Yt_reWT4M1yg7ttmw",
+            "type": "public-key"
+        },
+        {
+            "id": "nO4D7-j1HaHGOUVSA--dHA",
+            "type": "public-key"
+        },
+        {
+            "transports": [
+                "internal"
+            ],
+            "id": "l1TVBY-0HPH_hFWXjGOL0V9Nj6c",
+            "type": "public-key"
+        }
+    ],
+    "extensions": {},
+    "userVerification": "required",
+    "userId": "",
+    "status": "ok",
+    "errorMessage": ""
+}
