@@ -1,0 +1,24 @@
+{
+    "exceptionMsg": "",
+    "location": "/mga/sps/apiauthsvc/policy/pvconnect_passkey_registration?StateId=Nr5dcqNVZ0FKFGZ53LBWgyJHNy14uT5NdKT6vnP58L0DAFk7iuqo0sYEQZcxJPJjWiihm3qawYyet98UwSrawq4QrDyXPT6aCMSjQ2m7r8oCzEfqRud4cQHq17WIyQ7r",
+    "state": "Nr5dcqNVZ0FKFGZ53LBWgyJHNy14uT5NdKT6vnP58L0DAFk7iuqo0sYEQZcxJPJjWiihm3qawYyet98UwSrawq4QrDyXPT6aCMSjQ2m7r8oCzEfqRud4cQHq17WIyQ7r",
+    "message": "",
+    "mechanism": "urn:ibm:security:authentication:asf:mechanism:fido2pair_reg_complete"
+}
+
+{
+    "operation": "verify",
+    "enabled": true,
+    "id": "2F3s8mWWQJel7tG2wVdnvw",
+    "rawId": "2F3s8mWWQJel7tG2wVdnvw",
+    "attestationObject": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YViYIiByMe_Vjwk5DbuZnkpu0_TYLZtGg549CevjDvTvEyNdAAAAAPv8MAcVTk7MjAtuAgVX170AFJdU1QWPtBzx_4RVl4xji9FfTY-npQECAyYgASFYIP7ixvj1YNUo4bdjYAjp29fGzzGcqxJ21rfjhK2jEIJZIlggR9VpWYuHK5oFpL-62T8YXuJoEw-4gd6-0L0y2H54bFU",
+    "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiV3F1TUpHcXFPdnl1d2YxSG15UWxDR3pRb3lYMmZPY3hUQzE3cXVQSjM2ZyIsIm9yaWdpbiI6Imh0dHBzOi8vbG9naW4tdWF0LnB2Y29tYmFuay5jb20udm4iLCJjcm9zc09yaWdpbiI6ZmFsc2V9",
+    "type": "public-key",
+    "nickname": "P15 work",
+    "getClientExtensionResults":"e30",
+    "getTransports":"WyJpbnRlcm5hbCJd",
+    "authenticatorAttachment":"platform"
+}
+
+POST
+https://login-uat.pvcombank.com.vn/mga/sps/apiauthsvc/policy/pvconnect_passkey_registration?StateId=rDrXvKtcwF7EhqkcyfEFAiBGVDorJQyEqgPVFnMGvdufM7b26qghhMJBcV517ef8yLVlDfJLW8uJaRFTjpO6vGNNj2K16VEx56Njyzky79w1d8JWiJ8W4ppogf331Wzh
